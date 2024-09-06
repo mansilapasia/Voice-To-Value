@@ -11,12 +11,13 @@ Based on the dataset available, the analytical components to predict patient sat
 The first step in the process includes data collection and preprocessing that involves tokenization, removing stop words and special characters and text lowercasing followed by the best step of feature extraction of turning unprocessed text into numerical representations for machine learning models. Term Frequency-Inverse Document Frequency (TF-IDF), sentiment lexicons, N-grams, Bag-of-Words, are some of the common techniques which extract semantic and contextual information from text. 
 Next, the available datasets allow for both topic classification which is a supervised machine learning approach that has predefined topics category. 
 The fourth step involves the classifiers for sentiment analysis. Upon performing traditional machine learning models that are Naïve Bayes, Logistic regression, random forest, and support vector machine classifier (SVC) which are commonly used classifiers that give efficient results, the service leverages SVC machine learning model which had the best accuracy of 81%.
-Figure 1
+
 ![image](https://github.com/user-attachments/assets/452b0695-2fdc-4aea-ba56-8f6f9dab4bf0)
+
 Figure 1 compares the ML model with evaluation metrics such as recall, precision, F1-Score and accuracy to help decide the model evaluation and validation. The generation of confusion matrix in figure, further provides a better understanding of the working of models.
 
-Figure 2
 ![image](https://github.com/user-attachments/assets/e0a3138e-73d8-4f29-b94f-fdfbf5865d1b)
+
 Figure 2 displays the Confusion Matrix metrics of the considered ML Models. The model learns about the patterns and association between sentiment labels and features during training, to make predictions on the new text. 
 
 The predicted sentiment results of the model is represented in clearly understandable visualizations that provide the customer i.e. doctors, hospital administrators, etc. insight about the feedback given by patients and the measures that can be undertaken to improve the experience along with helping with resource allocation, providing equitable healthcare delivery for diverse patient populations and most importantly assisting private healthcare organizations in complying to accreditation of standards and regulatory requirements, enhancing compliance overall and enhancing reputation.
@@ -26,6 +27,7 @@ The National Health Service (NHS) Choice’s dataset, which is accessible on dat
 
 # ETL Workflow
 ![image](https://github.com/user-attachments/assets/99635b6e-8eb7-4b02-8471-125c5d6fc6e4)
+
 The ETL (Extract, Transform, Load) workflow for patient sentiment analysis of NHS patient feedback data, leveraging resources for scalability, security, and collaboration is displayed in figure above.
 
 ● Quality Assurance: Rigorous cleaning, validation, and de-duplication processes are implemented to maintain data integrity.
